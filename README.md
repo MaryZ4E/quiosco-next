@@ -39,3 +39,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Seccion 58 
 Fue realizada el dia de hoy con la finalidad de configurar las herramientas que usaremos , crear carpetas y entender que es lo que estamos haciendo .Tambien se hicieron los contenedores principales
+
+## Seccion 59
+Fue realizado el dia de hoy dimingo , es ensta seccion instalamos prisma ,se genero el schema , se hizo el modelado y tambien el seeding a la base de datos
