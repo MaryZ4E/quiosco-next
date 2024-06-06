@@ -74,8 +74,8 @@ Creamos el endpoint de API y pantalla de ordenes listas , consumimos el endpoint
 
 Se realizo el deploy en vercel ,por el tiempo ya no pude agregar algo mas 
 
-###Links:
-##Deploy:
+### Links:
+## Deploy:
 https://quiosco-next-vg27-avjmbjp4p-maryz4es-projects.vercel.app/order/cafe
-##Domain
+## Domain
 quiosco-next-vg27.vercel.app
