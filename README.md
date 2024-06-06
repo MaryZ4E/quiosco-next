@@ -70,4 +70,12 @@ Revalidaion manual , creamos un endpoint de API para swr , configuramos el swr .
 
 Creamos el endpoint de API y pantalla de ordenes listas , consumimos el endpoint y mostramos las ordenes listas
 
-## Seccion 70
+## Seccion 70 FIN
+
+Se realizo el deploy en vercel ,por el tiempo ya no pude agregar algo mas 
+
+###Links:
+##Deploy:
+https://quiosco-next-vg27-avjmbjp4p-maryz4es-projects.vercel.app/order/cafe
+##Domain
+quiosco-next-vg27.vercel.app
