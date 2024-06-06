@@ -6,28 +6,23 @@ const prisma = new PrismaClient();
 
 async function main() {
   try {
-    // Crear categorías
     await prisma.category.createMany({
       data: categories,
     });
-
-    // Crear productos
     await prisma.product.createMany({
       data: products,
     });
   } catch (error) {
     console.log(error);
-  } finally {
-    await prisma.$disconnect();
   }
 }
 
 main()
   .then(async () => {
-    await prisma.$disconnect();
+    await prisma.$disconnect;
   })
   .catch(async (e) => {
     console.error(e);
-    await prisma.$disconnect();
+    await prisma.$disconnect;
     process.exit(1);
   });

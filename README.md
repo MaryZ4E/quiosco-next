@@ -16,29 +16,58 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Registro de Progreso
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Seccion 58
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## Descripcion de progreso
-
-## Seccion 58 
 Fue realizada el dia de hoy con la finalidad de configurar las herramientas que usaremos , crear carpetas y entender que es lo que estamos haciendo .Tambien se hicieron los contenedores principales
 
 ## Seccion 59
+
 Fue realizado el dia de hoy dimingo , es ensta seccion instalamos prisma ,se genero el schema , se hizo el modelado y tambien el seeding a la base de datos
+
+## Seccion 60
+
+Se realizo el Data Fetching en Next , iteramos sobre las categorias , mostramos iconos y categorias y aprendimos sobre routing dinamico Duracion: 1hora y media
+
+## Seccion 61
+
+Se llevo a cabo la detecion de la categoria actal y obtencion de los productos , iterando sobre los productos , se terminaron los card de productos y se resalto la categoria actual Duracion : 1 hora
+
+## Seccion 62
+
+Se Creo el store con Zustand , consumimos el state de orden , comunicamos el boton con el store, agregamos articulos a la orden , mostramos art, evitamos duplicados , incrementamos la cantidad del producto asi como tambien decrementamos, eliminamos articulos de la orden y se hizo un calculo del total a pagar . Duracion: 2 h y media
+
+## Seccion 63
+
+Se creo el modelo de ordenes ,creamos un server action , recuperamos datos de formulario con formdata ,valicion de datos con ZOD (CLIENTE / SERVIDOR), mostrando errores con Toast ,validacion del resto de la orden, Ingresar datos a la base de datos . Evitar ordenes duplicadas. Duracion 2h y media
+
+## Seccion 64
+
+# Comienzo de los problemas y reduccion de tiempos
+
+Creamos las rutas y layout , creamos un componente reutilizable para los titulos , navegacion en el pamel de administracion , obtener las ordenes pendientes y mostrar ,
+creamos la accion de completar ordenes , marcar ordenes completas y validacion , revalidacion de datos en Next. Duracion: 2 hrs
+
+## Seccion 65
+
+Listamos los productos , incluimos la categoria en la tabla , creamos un paginador , creamos un routing para navegar en el paginador , calculamos el total de paginas, añadimos el boton de pagina anterior ,añadir paginador por numeros ,se creo el formulario de busqueda de productos , validando el buscador ,recuperamos el valor de busquea , Mostramos los resultados de busqueda
+Duracion: 2 hrs
+
+## Seccion 66
+
+Se creo el Routing y formulario para crear productos , mostramos las categorias en el formulario, mexclamos componentes de Clinte/servidor (PROBLEMA), validamos la creacion de productos, usamos cloudinary para subir imagenes , creamos el componente para subir imagenes ,obtuvimos el url de la imagen , almacenamos el producto en la base de datos . Duracion :1 hr y media
+
+## Seccion 67
+
+Obtener el producto a editar , ajustamos el formulario de edicion y llenar los campos , validando imagenes , guardando los cambios de productos . Duracion : 1 hora.
+
+## Seccion 68
+
+Revalidaion manual , creamos un endpoint de API para swr , configuramos el swr . Duracion: media hora
+
+## Seccion 69
+
+Creamos el endpoint de API y pantalla de ordenes listas , consumimos el endpoint y mostramos las ordenes listas
+
+## Seccion 70
